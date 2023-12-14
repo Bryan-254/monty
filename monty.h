@@ -80,5 +80,6 @@ void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void func_queue(stack_t **head, unsigned int line_number);
 void func_stack(stack_t **head, unsigned int line_number);
+int main(int ac, char *av[]);
 
 #endif
