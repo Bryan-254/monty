@@ -71,7 +71,7 @@ void func_nop(stack_t **head, unsigned int line_number);
 void func_sub(stack_t **head, unsigned int line_number);
 void func_div(stack_t **head, unsigned int line_number);
 void func_mul(stack_t **head, unsigned int line_number);
-void f_mod(stack_t **head, unsigned int counter);
+void func_mod(stack_t **head, unsigned int line_number);
 void f_pchar(stack_t **head, unsigned int counter);
 void f_pstr(stack_t **head, unsigned int counter);
 void f_rotl(stack_t **head, unsigned int counter);
