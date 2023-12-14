@@ -68,7 +68,7 @@ void func_pop(stack_t **head, unsigned int line_number);
 void func_swap(stack_t **head, unsigned int line_number);
 void func_add(stack_t **head, unsigned int line_number);
 void func_nop(stack_t **head, unsigned int line_number);
-void f_sub(stack_t **head, unsigned int counter);
+void func_sub(stack_t **head, unsigned int line_number);
 void func_div(stack_t **head, unsigned int line_number);
 void func_mul(stack_t **head, unsigned int line_number);
 void f_mod(stack_t **head, unsigned int counter);

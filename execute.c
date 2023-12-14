@@ -21,6 +21,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"mul", func_mul},
 				{"pint", func_pint},
 				{"swap", func_swap},
+				{"sub", func_sub},
 				{NULL, NULL}
 				};
 	unsigned int x = 0;
