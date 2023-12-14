@@ -2,8 +2,8 @@
 
 /**
  * func_pop - This function prints the top
- * @head: This parameter is stack head
- * @line_number: This is the counter
+ * @head: This parameter is the stack head
+ * @line_number: lThis is the counter
  * Return: Void
  */
 
