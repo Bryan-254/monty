@@ -4,7 +4,7 @@
  * func_div - This function divides the top two elements of the stack.
  * @head: This parameter is the stack head.
  * @line_number: This parameter is the counter.
- * Return: Void.
+ * Return: Void
  */
 
 void func_div(stack_t **head, unsigned int line_number)
