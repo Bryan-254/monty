@@ -56,9 +56,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
-ssize_t getstdin(char **lineptr, int file);
-char  *clean_line(char *content);
 void func_push(stack_t **head, unsigned int number);
 void func_pall(stack_t **head, unsigned int number);
 void func_pint(stack_t **head, unsigned int number);
