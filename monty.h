@@ -73,7 +73,7 @@ void func_div(stack_t **head, unsigned int line_number);
 void func_mul(stack_t **head, unsigned int line_number);
 void func_mod(stack_t **head, unsigned int line_number);
 void func_pchar(stack_t **head, unsigned int line_number);
-void f_pstr(stack_t **head, unsigned int counter);
+void func_pstr(stack_t **head, unsigned int line_number);
 void f_rotl(stack_t **head, unsigned int counter);
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 void addnode(stack_t **head, int n);
