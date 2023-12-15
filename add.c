@@ -2,8 +2,8 @@
 
 /**
  * func_add - This function adds the top two elements of the stack.
- * @head: This parameter is the stack head
- * @line_number: This parameter is the counter
+ * @head: This parameter is the stack head.
+ * @line_number: This parameter is the counter.
  * Return: Void.
 */
 
