@@ -16,7 +16,7 @@ void func_pchar(stack_t **head, unsigned int line_number)
 
 	if (hd == NULL)
 	{
-		fprintf(stderr, "L%d: cannot pchar, stack empty\n", line_number);
+		fprintf(stderr, "L%d: can't pchar, stack empty\n", line_number);
 		fclose(vessel.file);
 		free(vessel.content);
 		free_stack(*head);
@@ -24,7 +24,7 @@ void func_pchar(stack_t **head, unsigned int line_number)
 	}
 	if (hd->n > 127 || hd->n < 0)
 	{
-		fprintf(stderr, "L%d: cannot pchar, value out of range\n", line_number);
+		fprintf(stderr, "L%d: can't pchar, value out of range\n", line_number);
 		fclose(vessel.file);
 		free(vessel.content);
 		free_stack(*head);
