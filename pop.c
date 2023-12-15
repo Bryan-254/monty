@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * func_pop - This function prints the top
- * @head: This parameter is the stack head
- * @line_number: lThis is the counter
- * Return: Void
+ * func_pop - This function prints the top.
+ * @head: This parameter is the stack head.
+ * @line_number: lThis is the counter.
+ * Return: Void.
  */
 
 void func_pop(stack_t **head, unsigned int line_number)
