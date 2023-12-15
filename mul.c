@@ -2,9 +2,9 @@
 
 /**
  * func_mul - This multiplies the top two elements of the stack.
- * @head: This parameter is the stack head
- * @line_number: This parameter is the counter
- * Return: Void
+ * @head: This parameter is the stack head.
+ * @line_number: This parameter is the counter.
+ * Return: Void.
  */
 
 void func_mul(stack_t **head, unsigned int line_number)
@@ -13,6 +13,7 @@ void func_mul(stack_t **head, unsigned int line_number)
 	int len = 0, auxil;
 
 	hd = *head;
+
 	while (hd)
 	{
 		hd = hd->next;
