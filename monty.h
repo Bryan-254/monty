@@ -75,7 +75,7 @@ void func_mod(stack_t **head, unsigned int line_number);
 void func_pchar(stack_t **head, unsigned int line_number);
 void func_pstr(stack_t **head, unsigned int line_number);
 void func_rotl(stack_t **head, unsigned int line_number);
-void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
+void func_rotr(stack_t **head, unsigned int line_number);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void func_queue(stack_t **head, unsigned int line_number);
